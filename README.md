@@ -27,24 +27,15 @@
 | Chunker          | **93.4%** |
 | Lemmatizer       | **89.9%** |
 
-|                                | Metric          | Value   |
-| ------------------------------ | --------------- | ------- |
-| **SpacyPOSTagger**             | Precision       | 0.99250 |
-|                                | Recall          | 0.99249 |
-|                                | F1-Score        | 0.99249 |
-| **EZ Detection in SpacyPOSTagger** | Precision   | 0.99301 |
-|                                | Recall          | 0.99297 |
-|                                | F1-Score        | 0.99298 |
-| **SpacyChunker**                | Accuracy        | 96.53%  |
-|                                | F-Measure       | 95.00%  |
-|                                | Recall          | 95.17%  |
-|                                | Precision       | 94.83%  |
-| **SpacyDependencyParser**       | TOK Accuracy    | 99.06   |
-|                                | UAS             | 92.30   |
-|                                | LAS             | 89.15   |
-|                                | SENT Precision  | 98.84   |
-|                                | SENT Recall     | 99.38   |
-|                                | SENT F-Measure  | 99.11   |
+# Model Performance Metrics
+
+| **Component**                   | **Precision** | **Recall** | **F1-Score** | **Accuracy** | **F-Measure** | **UAS**  | **LAS**  | **SENT Precision** | **SENT Recall** | **SENT F-Measure** | **TOK Accuracy** |
+| -------------------------------- | ------------- | ---------- | ------------ | ------------ | ------------- | -------- | -------- | ----------------- | --------------- | ----------------- | ---------------- |
+| **SpacyPOSTagger**               | 0.99250       | 0.99249    | 0.99249      | -            | -             | -        | -        | -                 | -               | -                 | -                |
+| **EZ Detection in SpacyPOSTagger**| 0.99301       | 0.99297    | 0.99298      | -            | -             | -        | -        | -                 | -               | -                 | -                |
+| **SpacyChunker**                 | 94.83         | 95.17      | -            | 96.53%       | 95.00%        | -        | -        | -                 | -               | -                 | -                |
+| **SpacyDependencyParser**        | -             | -          | -            | -            | -             | 92.30    | 89.15    | 98.84             | 99.38           | 99.11             | 99.06            |
+
 
 
 ## Introduction
